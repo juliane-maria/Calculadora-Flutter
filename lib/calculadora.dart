@@ -42,7 +42,14 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 TextButton(
                   onPressed: () {},
-                  child: Text('7'),
+                  child: Text(
+                    '7',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                      fontSize: 30.0,
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
                 TextButton(
                   onPressed: () {},
